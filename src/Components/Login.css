@@ -1,0 +1,71 @@
+.left-col1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-page {
+    height: 100vh;
+    width: 100vw;
+    background: lightgray;
+    padding-top: 200px;
+}
+.login-card.card {
+    box-shadow: 0 1px 8px grey;
+}
+.col.right-col2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.mb-3.inputName , .mb-3.inputPassword {
+    width: 70%;
+    margin: 2rem auto auto auto;
+}
+.display-image{
+    height: 350px;
+    width: 450px;
+}
+.logo-image{
+    height: 102px;
+    width: 110px;
+}
+.error-block {
+    margin-bottom: 10px;
+    color: red;
+}
+.credentials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+@media screen and (min-width:570px) and (max-width:991px){
+    .login-page {
+        height: 100vh;
+        width: 100vw;
+        height: 100%;
+        background: lightgray;
+        padding-top: 100px;
+    }
+    .credentials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+    }
+}
+
+
+@media screen and (min-width:200px) and (max-width:569px){
+    .login-page{
+    padding-top: 20px;
+    height: 100%;
+    }
+    .display-image{
+        height: 150px;
+        width: 200px;
+    }
+}
